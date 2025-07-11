@@ -4,7 +4,7 @@
     "base_url": "http://localhost:4321",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "public/images/favicon.png",
+    "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "230",
     "logo_height": "45",
