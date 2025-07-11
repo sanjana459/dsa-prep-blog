@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "For Loop & Beyond: 34-Week DSA Journey",
+    "base_url": "http://localhost:4321",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/public/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "230",
+    "logo_height": "45",
+    "logo_text": "For Loop & Beyond"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "Sanjana Reddy Gurrappagaru",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Follow my 34-week structured DSA journey with weekly posts, patterns, topics, and notes — For Loop & Beyond!"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Made with ❤️ by Sanjana Reddy Gurrappagaru. For Loop & Beyond — My DSA Journey."
+  },
+
+  "contactinfo": {
+    "address": "121 Brittany Manor<br/>Amherst, MA 01002<br/>USA",
+    "email": "sanjana.gurrappagaru@gmail.com",
+    "phone": "+1 (413) 472-6694"
+  }
+}

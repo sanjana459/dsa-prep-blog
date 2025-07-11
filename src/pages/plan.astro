@@ -1,0 +1,121 @@
+---
+import Base from "@/layouts/Base.astro";
+
+const phase1 = [
+  { week: "Week 1", topic: "Arrays 101", status: "Completed", link: "/categories/arrays" },
+  { week: "Week 2", topic: "Array & String", status: "Upcoming", link: "" },
+  { week: "Week 3", topic: "Hash Table", status: "Upcoming", link: "" },
+  { week: "Week 4", topic: "Queue & Stack", status: "Upcoming", link: "" },
+  { week: "Week 5", topic: "Heap", status: "Upcoming", link: "" },
+  { week: "Week 6", topic: "Binary Search", status: "Upcoming", link: "" },
+  { week: "Week 7", topic: "Linked List", status: "Upcoming", link: "" },
+  { week: "Week 8", topic: "Recursion I", status: "Upcoming", link: "" },
+  { week: "Week 9", topic: "Recursion II", status: "Upcoming", link: "" },
+  { week: "Week 10", topic: "Binary Tree", status: "Upcoming", link: "" },
+  { week: "Week 11", topic: "Binary Search Tree", status: "Upcoming", link: "" },
+  { week: "Week 12", topic: "Trie", status: "Upcoming", link: "" },
+  { week: "Week 13", topic: "N-ary Tree", status: "Upcoming", link: "" },
+  { week: "Week 14", topic: "Graph (BFS/DFS)", status: "Upcoming", link: "" },
+  { week: "Week 15", topic: "Sorting & Searching", status: "Upcoming", link: "" },
+  { week: "Week 16", topic: "Dynamic Programming (Intro)", status: "Upcoming", link: "" },
+  { week: "Week 17", topic: "Backtracking (Intro)", status: "Upcoming", link: "" },
+  { week: "Week 18", topic: "Revision / Buffer", status: "Upcoming", link: "" },
+];
+
+const phase2 = [
+  { week: "Week 19", topic: "Two Pointers / Sliding Window", status: "Upcoming", link: "" },
+  { week: "Week 20", topic: "Hashing / Prefix Sum", status: "Upcoming", link: "" },
+  { week: "Week 21", topic: "Linked List / Stack-Queue Advanced", status: "Upcoming", link: "" },
+  { week: "Week 22", topic: "Binary Tree / BST", status: "Upcoming", link: "" },
+  { week: "Week 23", topic: "Heap / Priority Queue", status: "Upcoming", link: "" },
+  { week: "Week 24", topic: "Graphs (DFS/BFS, Shortest Paths)", status: "Upcoming", link: "" },
+  { week: "Week 25", topic: "Backtracking", status: "Upcoming", link: "" },
+  { week: "Week 26", topic: "Dynamic Programming", status: "Upcoming", link: "" },
+];
+---
+
+<Base>
+  <section class="max-w-4xl mx-auto py-12 px-4 prose prose-lg">
+    <h1 class="text-center">26-Week DSA Plan</h1>
+    <p>This is my structured roadmap for ~26 Weeks of DSA prep. Split into two phases with weekly topics. I'll update statuses and links as I go.</p>
+    <ul>
+      <li>✅ Phase 1: 18 weeks (Foundations)</li>
+      <li>✅ Phase 2: 8 weeks (Mastery)</li>
+    </ul>
+
+    <h2>Phase 1: Foundations (Weeks 1–18)</h2>
+    <p>Goal: Build understanding of 17 LeetCode Explore Cards (~85–100 questions). ~2–2.5 questions/day with revision weeks.</p>
+    <div class="overflow-x-auto mt-4">
+      <table class="min-w-full text-sm divide-y divide-gray-200">
+        <thead class="bg-gray-50">
+          <tr>
+            <th class="text-left px-4 py-2">Week</th>
+            <th class="text-left px-4 py-2">Topic</th>
+            <th class="text-left px-4 py-2">Status</th>
+            <th class="text-left px-4 py-2">Link</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          {phase1.map(item => (
+            <tr class="hover:bg-gray-50">
+              <td class="px-4 py-2">{item.week}</td>
+              <td class="px-4 py-2">{item.topic}</td>
+              <td class={`px-4 py-2 font-semibold ${item.status === 'Completed' ? 'text-green-600' : 'text-yellow-600'}`}>{item.status}</td>
+              <td class="px-4 py-2">
+                {item.link ? (
+                  <a href={item.link} class="text-blue-500 hover:underline">View Post</a>
+                ) : (
+                  <span class="text-gray-400">Coming Soon</span>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Phase 2: Mastery (Weeks 19–26)</h2>
+    <p>Goal: Medium–Hard LeetCode patterns for FAANG-level readiness (~220 questions). 2 questions/day over 8 weeks with real interview patterns and revision.</p>
+    <div class="overflow-x-auto mt-4">
+      <table class="min-w-full text-sm divide-y divide-gray-200">
+        <thead class="bg-gray-50">
+          <tr>
+            <th class="text-left px-4 py-2">Week</th>
+            <th class="text-left px-4 py-2">Topic</th>
+            <th class="text-left px-4 py-2">Status</th>
+            <th class="text-left px-4 py-2">Link</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          {phase2.map(item => (
+            <tr class="hover:bg-gray-50">
+              <td class="px-4 py-2">{item.week}</td>
+              <td class="px-4 py-2">{item.topic}</td>
+              <td class={`px-4 py-2 font-semibold ${item.status === 'Completed' ? 'text-green-600' : 'text-yellow-600'}`}>{item.status}</td>
+              <td class="px-4 py-2">
+                {item.link ? (
+                  <a href={item.link} class="text-blue-500 hover:underline">View Post</a>
+                ) : (
+                  <span class="text-gray-400">Coming Soon</span>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <h2>Revision Strategy</h2>
+<p>
+  At the end of every week, I will do a dedicated revision session. When I initially solve problems, if I find them hard to solve, I will put them in <strong>Revision Block 1</strong>. During weekly revision days, I will focus on solving Revision Block 1 problems.
+</p>
+<ul>
+  <li>If I can solve them confidently, I will move them to <strong>Revision Block 2</strong>.</li>
+  <li>If not, I will leave them in <strong>Block 1</strong> for another cycle.</li>
+  <li>At the <strong>end of each month</strong>, I will tackle <strong>Revision Block 2</strong>.</li>
+  <li>If I can solve them then, I will remove them from the list, showing I have truly learned them.</li>
+</ul>
+<p>
+  This layered revision system will help me repeatedly practice the hardest problems until they stick.
+</p>
+  </section>
+</Base>
