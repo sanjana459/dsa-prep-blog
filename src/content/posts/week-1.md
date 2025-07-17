@@ -5,7 +5,7 @@ description: "Introduction to arrays, patterns, and solved problems."
 date: 2025-07-11
 image: "/images/posts/week-1.jpg" # Optional
 categories: ["arrays"]
-tags: ["basics", "array", "patterns"]
+tags: ["basics", "array", "patterns", "HashMap"]
 draft: false
 ---
 
@@ -42,3 +42,10 @@ Key takeaways:
 ---
 
 > I'm tracking my progress week by week as part of my 26-week structured DSA plan. Follow along for notes, patterns, and problem breakdowns!
+
+---
+
+## ✅ Problems Solved This Week
+
+- [Two Sum](/problems/two-sum)
+- [Longest Substring Without Repeating Characters](/problems/longest-substring)

@@ -68,10 +68,24 @@ const pagesCollection = defineCollection({
   }),
 });
 
-// Export collections
+// ✅ Problems collection schema (NEW)
+const problemsCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/problems" }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    date: z.date().optional(),
+    difficulty: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    leetcode: z.string().url().optional(),
+  }),
+});
+
+// ✅ Export all collections
 export const collections = {
   posts: postsCollection,
   about: aboutCollection,
   authors: authorsCollection,
   pages: pagesCollection,
+  problems: problemsCollection,
 };
