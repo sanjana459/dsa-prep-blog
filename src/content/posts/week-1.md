@@ -47,5 +47,18 @@ Key takeaways:
 
 ## ✅ Problems Solved This Week
 
-- [Two Sum](/problems/two-sum)
-- [Longest Substring Without Repeating Characters](/problems/longest-substring)
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-items-center">
+  <a href="/problems/two-sum" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Two Sum</div>
+    <div class="text-xs text-gray-500">LeetCode Easy</div>
+  </a>
+
+  <a href="/problems/longest-substring" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Longest Substring Without Repeating Characters</div>
+    <div class="text-xs text-gray-500">LeetCode Medium</div>
+  </a>
+
+ <a href="/problems/two-sum" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Two Sum</div>
+    <div class="text-xs text-gray-500">LeetCode Easy</div>
+  </a>
