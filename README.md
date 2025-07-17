@@ -23,7 +23,7 @@ Hosted on [Vercel](https://vercel.com) — auto deployed from GitHub
 
 ```bash
 git clone git@github.com:sanjana459/dsa-prep-blog.git
-cd dsa-blog
+cd dsa-prep-blog
 npm install
 npm run dev
 ```
