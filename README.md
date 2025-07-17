@@ -29,10 +29,10 @@ npm run dev
 ```
 
 ## ✍️ Getting Started
-📚 Weekly topic breakdowns (e.g., Arrays 101, Graphs Deep Dive)
-🧩 Common problem-solving patterns
-✅ Solved LeetCode problems with links
-✍️ Summary notes, takeaways, and strategies
+📚 Weekly topic breakdowns (e.g., Arrays 101, Graphs Deep Dive)   
+🧩 Common problem-solving patterns  
+✅ Solved LeetCode problems with links  
+✍️ Summary notes, takeaways, and strategies  
 
 ## 📬 Contact
 Feel free to open issues or email me if you’re working on your own blog and want tips:  
