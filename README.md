@@ -26,20 +26,15 @@ git clone git@github.com:sanjana459/dsa-prep-blog.git
 cd dsa-blog
 npm install
 npm run dev
+```
 
-whats_included: |
-  ✍️ What's Included
+## ✍️ Getting Started
+📚 Weekly topic breakdowns (e.g., Arrays 101, Graphs Deep Dive)
+🧩 Common problem-solving patterns
+✅ Solved LeetCode problems with links
+✍️ Summary notes, takeaways, and strategies
 
-  📚 Weekly topic breakdowns (e.g., Arrays 101, Graphs Deep Dive)
-
-  🧩 Common problem-solving patterns
-
-  ✅ Solved LeetCode problems with links
-
-  ✍️ Summary notes, takeaways, and strategies
-
-contact: |
-  📬 Contact
-
-  Feel free to open issues or email me if you’re working on your own blog and want tips:  
+## 📬 Contact
+Feel free to open issues or email me if you’re working on your own blog and want tips:  
   📧 sanjana.gurrappagaru@gmail.com
+
