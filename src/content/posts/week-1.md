@@ -5,7 +5,7 @@ description: "Introduction to arrays, patterns, and solved problems."
 date: 2025-07-11
 image: "/images/posts/week-1.jpg" # Optional
 categories: ["arrays"]
-tags: ["basics", "array", "patterns", "HashMap"]
+tags: ["basics", "arrays", "patterns", "HashMap"]
 draft: false
 ---
 
