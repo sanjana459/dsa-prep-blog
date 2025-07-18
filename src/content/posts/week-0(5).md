@@ -1,7 +1,7 @@
 ---
 title: "Two Pointers Algorithm – Intuition & Patterns"
 meta_title: "DSA Pattern: Two Pointers (Squeeze Technique)"
-description: "A foundational technique for solving array and string problems efficiently using two indices."
+description: "Understand the two pointers technique and how it simplifies array and string problems by reducing nested loops. Learn key patterns, types of pointer movement, and when to apply this strategy effectively."
 date: 2025-07-21
 image: "/images/posts/two-pointers-cover.jpg"
 categories: ["patterns"]

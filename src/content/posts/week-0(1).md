@@ -1,7 +1,7 @@
 ---
 title: "Time and Space Complexity"
 meta_title: "DSA Basics - Time and Space Complexity"
-description: "Classification of data structures, Big-O analysis, cheat sheets, and decision guides."
+description: "Explore data structure classifications, grasp time and space complexity basics, and use Big-O cheat sheets to gauge runtime expectations in coding problems."
 date: 2025-07-19
 image: "/images/posts/week-0(1).jpg"
 categories: ["basics"]
@@ -122,3 +122,23 @@ Check out this excellent breakdown on [Medium](https://medium.com/free-code-camp
 Try analyzing the complexity of your solution **before** you code. Over time, this habit will lead to more efficient algorithms and better problem-solving instincts.
 
 </div>
+
+---
+
+## ✅ Problems Solved This Week
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-items-center">
+  <a href="/problems/two-sum" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Two Sum</div>
+    <div class="text-xs text-gray-500">LeetCode Easy</div>
+  </a>
+
+  <a href="/problems/longest-substring" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Longest Substring Without Repeating Characters</div>
+    <div class="text-xs text-gray-500">LeetCode Medium</div>
+  </a>
+
+ <a href="/problems/two-sum" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Two Sum</div>
+    <div class="text-xs text-gray-500">LeetCode Easy</div>
+  </a>

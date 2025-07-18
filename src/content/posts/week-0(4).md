@@ -1,7 +1,7 @@
 ---
 title: "Sliding Window Algorithm – Fixed & Variable Length"
 meta_title: "Sliding Window Pattern for Subarrays & Substrings"
-description: "Learn the theory of solving subarray and substring problems using fixed and variable length sliding window patterns, with key insights and strategies."
+description: "Master the sliding window technique for solving subarray and substring problems. Learn when to use fixed vs variable windows, common patterns, and how to optimize with two-pointer strategies."
 date: 2025-07-21
 image: "/images/posts/sliding-window-cover.jpg"
 categories: ["patterns"]

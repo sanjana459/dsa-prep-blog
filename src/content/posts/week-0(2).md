@@ -1,7 +1,7 @@
 ---
 title: "Lists, Arrays & Strings: Big‑O Overview"
 meta_title: "Python Lists & Strings – Time & Space Complexity"
-description: "Static vs dynamic arrays, list operations, string immutability, and Big‑O cheat sheets."
+description: "Understand Python lists and strings through the lens of Big‑O analysis. Learn the difference between static and dynamic arrays, explore time and space complexity for key operations, and use practical cheat sheets to master list and string behaviors."
 date: 2025-07-20
 image: "/images/posts/lists-strings-big-o-cover.jpg"
 categories: ["basics"]

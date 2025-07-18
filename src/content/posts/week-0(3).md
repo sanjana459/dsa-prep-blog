@@ -1,7 +1,7 @@
 ---
 title: "Hash Tables & Sets – Time & Space Complexity"
 meta_title: "Hash Maps & Sets in Python – Big‑O Operations"
-description: "Understand Python dict/set behavior, time complexity of key-value operations, and implementation tradeoffs."
+description: "Learn how Python dictionaries and sets work under the hood, analyze the Big‑O time and space complexity of operations, and compare hash tables with lists for optimal data access and storage."
 date: 2025-07-21
 image: "/images/posts/hash-tables-cover.jpg"
 categories: ["basics"]
