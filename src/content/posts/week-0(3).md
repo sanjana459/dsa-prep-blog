@@ -17,12 +17,6 @@ draft: false
     }
   </style>
 
-## 📌 Week 2 Goals
-- Understand how Python implements `dict` and `set`
-- Learn time and space complexity of common operations
-- Compare hash tables vs lists for key-value access
-
----
 
 ## 🧠 Hash Table Basics
 

@@ -18,12 +18,6 @@ draft: false
 
 <div class="prose prose-tight max-w-none">
 
-## 📌 Week 0 Goals
-- Understand how data structures are classified
-- Learn the fundamentals of time and space complexity
-- Apply Big-O notation to analyze algorithms
-
----
 
 ## 🧠 Classification of Data Structures
 

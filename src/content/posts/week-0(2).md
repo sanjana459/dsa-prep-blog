@@ -17,12 +17,6 @@ draft: false
     }
   </style>
 
-## 📌 Week 1 Goals
-- Understand Python static vs dynamic arrays
-- Learn time/space complexity for list and string operations
-- Recognize immutable vs in-place behavior
-
----
 
 ## 🧠 Static Arrays, Dynamic Arrays, and Strings – Big O Complexity
 
