@@ -5,7 +5,7 @@ description: "Understand the two pointers technique and how it simplifies array 
 date: 2025-07-21
 image: "/images/posts/two-pointers-cover.jpg"
 categories: ["patterns"]
-tags: ["two pointers", "array", "string", "technique"]
+tags: ["two pointers", "arrays", "strings", "techniques"]
 draft: false
 ---
 

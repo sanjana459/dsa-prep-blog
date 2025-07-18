@@ -5,7 +5,7 @@ description: "Understand Python lists and strings through the lens of Big‑O an
 date: 2025-07-20
 image: "/images/posts/lists-strings-big-o-cover.jpg"
 categories: ["basics"]
-tags: ["arrays", "lists", "strings", "python"]
+tags: ["arrays", "lists", "strings"]
 draft: false
 ---
 
