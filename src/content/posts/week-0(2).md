@@ -9,7 +9,7 @@ tags: ["arrays", "lists", "strings"]
 draft: false
 ---
 
-<div class="prose max-w-none prose-tight">
+<div class="max-w-none prose-tight">
   <style>
     hr {
       margin-top: 1.5rem;
@@ -133,3 +133,12 @@ print(s)       # " Hello "
 s = s.strip()  # Now it's trimmed
 print(s)       # "Hello"
 ```
+---
+
+## ✅ Problems Solved This Week
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-items-center">
+  <a href="/problems/find-closest-number-to-zero" class="w-60 h-18 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Find Closest Number to Zero</div>
+    <div class="text-xs text-gray-500">LeetCode Easy</div>
+  </a>

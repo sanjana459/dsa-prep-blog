@@ -8,7 +8,7 @@ categories: ["basics"]
 tags: ["data structures", "time complexity", "space complexity", "cheat sheet"]
 draft: false
 ---
-<div class="prose max-w-none prose-tight">
+<div class="max-w-none prose-tight">
   <style>
     hr {
       margin-top: 1.5rem;
@@ -117,22 +117,3 @@ Try analyzing the complexity of your solution **before** you code. Over time, th
 
 </div>
 
----
-
-## ✅ Problems Solved This Week
-
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-items-center">
-  <a href="/problems/two-sum" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
-    <div class="font-medium text-blue-600">Two Sum</div>
-    <div class="text-xs text-gray-500">LeetCode Easy</div>
-  </a>
-
-  <a href="/problems/longest-substring" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
-    <div class="font-medium text-blue-600">Longest Substring Without Repeating Characters</div>
-    <div class="text-xs text-gray-500">LeetCode Medium</div>
-  </a>
-
- <a href="/problems/two-sum" class="w-60 h-24 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
-    <div class="font-medium text-blue-600">Two Sum</div>
-    <div class="text-xs text-gray-500">LeetCode Easy</div>
-  </a>

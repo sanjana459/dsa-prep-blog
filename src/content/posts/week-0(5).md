@@ -9,7 +9,7 @@ tags: ["two pointers", "arrays", "strings", "techniques"]
 draft: false
 ---
 
-<div class="prose max-w-none prose-tight">
+<div class="max-w-none prose-tight">
   <style>
     hr {
       margin-top: 1.5rem;
