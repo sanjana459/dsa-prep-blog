@@ -81,13 +81,15 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        closest = nums[0]
+        number = nums[0]
         for i in nums:
-            if abs(i) < abs(closest):
-                closest = i
-            elif abs(i) == abs(closest) and i > closest:
-                closest = i
-        return closest
+            if abs(i) < abs(number):
+                number = i
+
+        if abs(number) in nums:
+            return abs(number)
+        else:
+            return number
 ```
 
 ## 🧪 Example Tests
