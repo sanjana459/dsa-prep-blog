@@ -3,7 +3,7 @@ title: "Find Closest Number to Zero"
 slug: "find-closest-number-to-zero"
 date: 2025-07-19
 difficulty: "Easy"
-tags: ["Arrays"]
+tags: ["Arrays", "linear scan"]
 leetcode: "https://leetcode.com/problems/find-closest-number-to-zero/"
 ---
 <div class="max-w-none prose-tight">

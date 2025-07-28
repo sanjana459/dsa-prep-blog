@@ -5,7 +5,7 @@ description: "Understand Python lists and strings through the lens of Big‑O an
 date: 2025-07-20
 image: "/images/posts/lists-strings-big-o-cover.jpg"
 categories: ["basics"]
-tags: ["arrays", "lists", "strings"]
+tags: ["arrays", "lists", "strings", "linear scan"]
 draft: false
 ---
 
@@ -137,8 +137,28 @@ print(s)       # "Hello"
 
 ## ✅ Problems Solved This Week
 
+<!-- Row 1 -->
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-items-center">
   <a href="/problems/find-closest-number-to-zero" class="w-60 h-18 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
     <div class="font-medium text-blue-600">Find Closest Number to Zero</div>
     <div class="text-xs text-gray-500">LeetCode Easy</div>
   </a>
+
+  <a href="/problems/merge-strings-alternately" class="w-60 h-18 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Merge Strings Alternately</div>
+    <div class="text-xs text-gray-500">LeetCode Easy</div>
+  </a>
+
+  <a href="/problems/roman-to-integer" class="w-60 h-18 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Roman to Integer</div>
+    <div class="text-xs text-gray-500">LeetCode Easy</div>
+  </a>
+</div>
+
+<!-- Row 2 -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-items-center mt-4">
+  <a href="/problems/is-subsequence" class="w-60 h-18 block p-4 border border-gray-300 rounded-xl shadow-sm hover:shadow transition text-sm">
+    <div class="font-medium text-blue-600">Is Subsequence</div>
+    <div class="text-xs text-gray-500">LeetCode Easy</div>
+  </a>
+</div>
